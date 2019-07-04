@@ -1,7 +1,7 @@
 ---
-title: ":smile: Shapes Cards abstrakte Bildsprache [DE]"
+title: ":dart: Linux Exploit Suggester"
 layout: post
-date: 2019-02-08 22:10
+date: 2019-02
 tag: komunication
 image: https://roseleblood.github.io/openess/Logo-OpenESS.png
 headerImage: false
