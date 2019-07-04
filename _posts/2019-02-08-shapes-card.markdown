@@ -1,7 +1,7 @@
 ---
 title: ":dart: Linux Exploit Suggester"
 layout: post
-date: 2019-02
+date: 2016-07-00 00:00
 tag: komunication
 image: https://roseleblood.github.io/openess/Logo-OpenESS.png
 headerImage: false
