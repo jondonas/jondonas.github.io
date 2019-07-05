@@ -1,6 +1,6 @@
 ---
 title: "Cisco Config Manager"
-icon: ":dart:"
+icon: ":phone:"
 layout: post
 date: 1001-01-01 00:00 # Used for project ordering, never displayed
 startDate: 2015-04-01 00:00
