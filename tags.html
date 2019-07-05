@@ -5,7 +5,7 @@ title: Tags
 <section class="list">
     <h1 class="title">Tags</h1>
 
-    {% assign tags_list = site.tags %}
+    {% assign tags_list = site.tags | sort %}
 
     {% if tags_list.first[0] == null %}
         {% for tag in tags_list %}
@@ -23,7 +23,8 @@ title: Tags
 <hr>
 
 <section class="tag-list">
-    {% for tag in site.tags  %}
+    {% assign tags_list = site.tags | sort %}
+    {% for tag in tags_list  %}
     <h2 class="title" id="{{ tag[0] | slugify }}">#{{ tag[0] }}</h2>
 
     <ul class="list">
