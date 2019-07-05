@@ -1,15 +1,15 @@
 ---
-title: "Cisco Config Manager"
-icon: ":phone:"
+title: "lvl1.io"
+icon: ":notebook:"
 layout: post
-date: 1001-01-01 00:00 # Used for project ordering, never displayed
-startDate: 2015-04-01 00:00
-endDate: 2015-06-01 00:00
-tag: [cisco, python]
-github: https://github.com/jondonas/cisco-manager/blob/master/cisco-conf-manager.py
+date: 2001-01-01 00:00 # Used for project ordering, never displayed
+startDate: 2015-06-01 00:00
+endDate: 2015-07-01 00:00
+tag: [linux, saltstack, react, mysql, nginx, falcon, html/css]
+github: https://github.com/lvl1
 projects: true
-category: personal
+category: open-source
 author: jondonas
 ---
 
-A python script that remotely connects to a Cisco router or switch, pulls and parses the config file, and changes the configuration based on pre-defined rules (such as setting all interfaces to be in VLAN 5 or configuring routes). Useful for quickly ensuring that many devices share a baseline configuration.
+In my first internship I built lvl1.io for iTel Networks and wrote tutorials that documented the process. The lvl1 project was an initiative to create a series of courses that would enable someone with basic command line skills to learn what is needed to be a functional L1 admin or Jr. dev using today's technology.
