@@ -26,22 +26,18 @@
         display: block
         font-weight: 400
         color: #212529
-        //text-align: center
-        //vertical-align: middle
-        //user-select: none
-        //background-color: transparent
         border: 1px solid #333
         padding: .375rem 1.5rem
         line-height: 30px
         height: 30px
         border-radius: .5rem
         transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
-        &:hover
-            background: #333
-            color: #fff
+        &:visited
+            background: transparent
+            color: #333
             > .icon
-                filter: invert(1)
-        &:active
+                filter: invert(0)
+        &:hover
             background: #333
             color: #fff
             > .icon
