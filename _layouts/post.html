@@ -23,6 +23,10 @@ layout: page
 
 {{content}}
 
+{% if page.github %}
+    <a class="github-btn" href="{{ page.github }}">View on GitHub</a>
+{% endif %}
+
 {% if site.post-advance-links contains page.category %}
     <div class="blog-navigation">
         {% if page.previous.hidden == false and page.previous.url %}
