@@ -10,7 +10,6 @@ github: https://github.com/jondonas/cisco-manager/blob/master/cisco-conf-manager
 projects: true
 category: personal
 author: jondonas
-#externalLink: false
 ---
 
 ---
