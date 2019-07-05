@@ -2,13 +2,13 @@
 layout: page
 title: Projects
 ---
-<h1> Open Source </h1>
 <section class="list">
+<h1 style: "text-align: left;"> Open Source </h1>
     {% for post in site.posts %}
         {% if post.projects %}
             <div class="item {% if post.star %}star{% endif %}">
                 <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                    <aside><time datetime="{{ post.startDate | date:"%d-%m-%Y" }}">{% if post.endDate %} {{ post.startDate | date: "%b %Y - " }} {{ post.endDate | date: "%b %Y" }} {% else %} {{ post.startDate | date: "%b %Y - Present" }} {% endif %}</time></aside>
+                    <aside><time datetime="{{ post.startDate | date:"%d-%m-%Y" }}">{% if post.endDate %} {{ post.startDate | date: "%B %Y - " }} {{ post.endDate | date: "%B %Y" }} {% else %} {{ post.startDate | date: "%B %Y - Present" }} {% endif %}</time></aside>
                     <h3 class="title">{{ post.title }}</h3>
                 </a>
             </div>
