@@ -9,7 +9,15 @@ layout: page
 <h1 class="title">{{ page.title }}</h1>
 
 <span class="date">
-    <time datetime="{{ page.startDate | date:"%d-%m-%Y" }}">{% if page.endDate %} {{ page.startDate | date: "%B %Y - " }} {{ page.endDate | date: "%B %Y" }} {% else %} {{ page.startDate | date: "%B %Y - Present" }} {% endif %}</time>
+    <time datetime="{{ page.startDate | date:"%d-%m-%Y" }}">
+        {% if page.endDate == "present" %}
+            {{ page.startDate | date: "%B %Y - Present" }}
+        {% elsif page.endDate %} 
+            {{ page.startDate | date: "%B %Y - " }} {{ page.endDate | date: "%B %Y" }}
+        {% else %} 
+            {{ page.startDate | date: "%B %Y" }} 
+        {% endif %}
+    </time>
     {% if site.read-time %} - {% include read-time.html %}{% endif %}
 </span>
 

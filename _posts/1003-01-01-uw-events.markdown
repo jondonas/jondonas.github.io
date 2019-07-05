@@ -1,0 +1,15 @@
+---
+title: "uWaterloo Events"
+icon: ":mega:"
+layout: post
+date: 1003-01-01 00:00 # Used for project ordering, never displayed
+startDate: 2016-01-01 00:00
+endDate: 2016-04-01 00:00
+tag: [python, php, flask, mysql, linux, html/css]
+github: https://github.com/jondonas/uw-events
+projects: true
+category: personal
+author: jondonas
+---
+
+For English 119 (a technical writing course), the term-long project was to write a proposition for something that could benefit the community or student population. Our group decided to take it a step further: actually build something that would benefit students of Waterloo. Waterloo has a basic and bland events website and we built a better site that was equipped with a refined scrolling news-feed of the latest events on campus, as well as an email notification service for these events. Students often talked of being misinformed about, or forgetting about, events. Our site helped change that.

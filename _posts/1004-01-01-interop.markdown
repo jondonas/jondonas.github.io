@@ -1,0 +1,15 @@
+---
+title: "Interop 2016, Las Vegas"
+icon: ":bookmark:"
+layout: post
+date: 1004-01-01 00:00 # Used for project ordering, never displayed
+startDate: 2016-05-01 00:00
+endDate: 
+tag:
+github:
+projects: true
+category: personal
+author: jondonas
+---
+
+I had the opportunity to speak at Interop 2016 in Las Vegas with Cody Bunch, Principal Cloud Architect for Rackspace. We spoke about how to provide mentorship to new learners in a company, and I gave my perspective as a recent apprentice. I had a great time and can't wait until I present at my next conference!

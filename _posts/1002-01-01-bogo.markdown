@@ -1,0 +1,15 @@
+---
+title: "Bogo"
+icon: ":game_die:"
+layout: post
+date: 1002-01-01 00:00 # Used for project ordering, never displayed
+startDate: 2016-01-01 00:00
+endDate: 2016-04-01 00:00
+tag: [python, php, mysql, linux, html/css]
+github: https://github.com/jondonas/bogo
+projects: true
+category: personal
+author: jondonas
+---
+
+This project was conceived by my residence friends and me. Users sign up for email notifications. A python script running bogosort, a particularly inefficient list sorting algorithm, runs on a web-server and sends an email to users when it completes (approximately every 45 days or so). This project was intended to be a way to help my friends learn about web development, and improve my own skills as well.
