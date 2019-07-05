@@ -14,4 +14,4 @@ author: jondonas
 ---
 
 ---
-# Content Here
+A python script that remotely connects to a Cisco router or switch, pulls and parses the config file, and changes the configuration based on pre-defined rules (such as setting all interfaces to be in VLAN 5 or configuring routes). Useful for quickly ensuring that many devices share a baseline configuration.
