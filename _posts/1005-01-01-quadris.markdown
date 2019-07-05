@@ -1,0 +1,15 @@
+---
+title: "Quadris"
+icon: ":video_game:"
+layout: post
+date: 1005-01-01 00:00 # Used for project ordering, never displayed
+startDate: 2016-11-01 00:00
+endDate: 2016-12-01 00:00
+tag: [c++]
+github: https://github.com/jondonas/quadris
+projects: true
+category: personal
+author: jondonas
+---
+
+Quadris is a Tetris spinoff that a classmate and I created for our object-oriented programming course. We challenged ourselves to write great code and utilize design patterns. As a bonus feature, we also wrote an AI that plays the game (much) better than a human player. This project helped me hone my software development and git skills.

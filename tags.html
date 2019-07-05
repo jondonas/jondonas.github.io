@@ -33,7 +33,15 @@ title: Tags
                 {% if group == null or group == post.group %}
                     <li class="item">
                         <a class="url" href="{{ site.url }}{{ post.url }}">
-                            <aside class="date"><time datetime="{{ post.startDate | date:"%d-%m-%Y" }}">{% if post.endDate %} {{ post.startDate | date: "%B %Y - " }} {{ post.endDate | date: "%B %Y" }} {% else %} {{ post.startDate | date: "%B %Y - Present" }} {% endif %}</time></aside>
+                            <aside class="date"><time datetime="{{ post.startDate | date:"%d-%m-%Y" }}">
+                            {% if post.endDate == "present" %}
+                                {{ post.startDate | date: "%B %Y - Present" }}
+                            {% elsif post.endDate %}
+                                {{ post.startDate | date: "%B %Y - " }} {{ post.endDate | date: "%B %Y" }}
+                            {% else %}
+                                {{ post.startDate | date: "%B %Y" }}
+                            {% endif %}
+                            </time></aside>
                             <h3 class="title">{{ post.title }}</h3>
                         </a>
                     </li>
