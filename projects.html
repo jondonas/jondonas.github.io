@@ -2,6 +2,9 @@
 layout: page
 title: Projects
 ---
+
+<!-- Anyone reading this: I'm so sorry for the lack of functionalization -->
+
 <section class="list">
 <h1 style: "text-align: left;"> Open Source </h1>
     {% for post in site.posts %}
@@ -28,6 +31,28 @@ title: Projects
 <h1 style: "text-align: left;"> Personal </h1>
     {% for post in site.posts %}
         {% if post.projects and post.category == "personal" %}
+            <div class="item {% if post.star %}star{% endif %}">
+                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
+                    <aside><time datetime="{{ post.startDate | date:"%d-%m-%Y" }}">
+                        {% if post.endDate == "present" %}
+                            {{ post.startDate | date: "%b %Y - Present" }}
+                        {% elsif post.endDate %}
+                            {{ post.startDate | date: "%b %Y - " }} {{ post.endDate | date: "%b %Y" }}
+                        {% else %}
+                            {{ post.startDate | date: "%b %Y" }}
+                        {% endif %}
+                    </time></aside>
+                    <h3 class="title">{{ post.icon }} {{ post.title }}</h3>
+                </a>
+            </div>
+        {% endif %}
+    {% endfor %}
+</section>
+
+<section class="list">
+<h1 style: "text-align: left;"> Bug Reports </h1>
+    {% for post in site.posts %}
+        {% if post.projects and post.category == "bug-report" %}
             <div class="item {% if post.star %}star{% endif %}">
                 <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
                     <aside><time datetime="{{ post.startDate | date:"%d-%m-%Y" }}">
