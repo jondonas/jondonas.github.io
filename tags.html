@@ -28,7 +28,7 @@ title: Tags
 
     <ul class="list">
         {% assign pages_list = tag[1] %}
-        {% for post in pages_list reversed %}
+        {% for post in pages_list%}
             {% if post.title != null %}
                 {% if group == null or group == post.group %}
                     <li class="item">
