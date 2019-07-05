@@ -16,7 +16,7 @@ resume: true
 resume-external: false
 resume-url: assets/files/JonathanDonasResume.pdf
 
-url: https://jondonas.github.io
+url: https://www.jondonas.com
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
