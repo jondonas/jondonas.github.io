@@ -5,7 +5,21 @@ title: Projects
 <section class="list">
 <h1 style: "text-align: left;"> Open Source </h1>
     {% for post in site.posts %}
-        {% if post.projects %}
+        {% if post.projects and post.category == "Open Source" %}
+            <div class="item {% if post.star %}star{% endif %}">
+                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
+                    <aside><time datetime="{{ post.startDate | date:"%d-%m-%Y" }}">{% if post.endDate %} {{ post.startDate | date: "%B %Y - " }} {{ post.endDate | date: "%B %Y" }} {% else %} {{ post.startDate | date: "%B %Y - Present" }} {% endif %}</time></aside>
+                    <h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+        {% endif %}
+    {% endfor %}
+</section>
+
+<section class="list">
+<h1 style: "text-align: left;"> Personal </h1>
+    {% for post in site.posts %}
+        {% if post.projects and post.category == "Personal" %}
             <div class="item {% if post.star %}star{% endif %}">
                 <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
                     <aside><time datetime="{{ post.startDate | date:"%d-%m-%Y" }}">{% if post.endDate %} {{ post.startDate | date: "%B %Y - " }} {{ post.endDate | date: "%B %Y" }} {% else %} {{ post.startDate | date: "%B %Y - Present" }} {% endif %}</time></aside>

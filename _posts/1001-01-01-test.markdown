@@ -8,7 +8,7 @@ tag: [perl, test]
 headerImage: false
 projects: true
 hidden: false
-category: project
+category: personal
 author: jondonas
 externalLink: false
 ---
