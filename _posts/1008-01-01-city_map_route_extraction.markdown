@@ -20,7 +20,7 @@ The idea of this project is to give people a glimpse of what it was like to navi
 
 This gives the interested user the chance to appreciate how navigation was different two centuries ago from what it is like now and to explore how both routes and travel times have evolved.
 
-<kbd><img src="/assets/images/dh_demo.gif" width="400" style="border: 1px solid #ddd; display: block; margin-left: auto; margin-right: auto;"></kbd>
+<kbd><img src="/assets/images/dh_demo.gif" width="500" style="border: 1px solid #ddd; display: block; margin-left: auto; margin-right: auto;"></kbd>
 
 ### The Historical Document
 
