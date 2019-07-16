@@ -4,9 +4,11 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
+---
+
 ### About Me
 
-<kbd><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4cd.png" width="20" height="20"></kbd> Seattle, Washington
+<!--- Currently living in Seattle, Washington --->
 
 <!--- #### Work
 Software Engineer @ AWS Cryptography --->
