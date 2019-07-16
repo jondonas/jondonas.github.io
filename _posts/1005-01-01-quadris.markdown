@@ -12,4 +12,10 @@ category: personal
 author: jondonas
 ---
 
+Object Oriented Programming class, 2016.
+
 Quadris is a Tetris spinoff that a classmate and I created for our object-oriented programming course. We challenged ourselves to write great code and utilize design patterns. As a bonus feature, we also wrote an AI that plays the game (much) better than a human player. This project helped me hone my software development and git skills.
+
+As a bonus feature, we also built an AI that played the game (usually) better than we could. In testing, the AI would play up to 7000 successful moves on the hardest level before losing.
+
+<kbd><img src="/assets/images/quadris.gif" width="400"></kbd>
