@@ -12,7 +12,7 @@ category: personal
 author: jondonas
 ---
 
-Object Oriented Programming class, fall 2016.
+*Object Oriented Programming class, fall 2016.*
 
 Quadris is a Tetris spinoff that a classmate and I created for our object-oriented programming course. We challenged ourselves to write great code and utilize design patterns. As a bonus feature, we also wrote an AI that plays the game (much) better than a human player. This project helped me hone my software development and git skills.
 
