@@ -12,4 +12,6 @@ category: personal
 author: jondonas
 ---
 
-For English 119 (a technical writing course), the term-long project was to write a proposition for something that could benefit the community or student population. Our group decided to take it a step further: actually build something that would benefit students of Waterloo. Waterloo has a basic and bland events website and we built a better site that was equipped with a refined scrolling news-feed of the latest events on campus, as well as an email notification service for these events. Students often talked of being misinformed about, or forgetting about, events. Our site helped change that.
+English 119 class, winter 2016.
+
+For my technical writing course, the term-long project was to write a proposition for something that could benefit the community or student population. Our group decided to take it a step further: actually build something that would benefit students of Waterloo. Waterloo has a basic and bland events website and we built a better site that was equipped with a refined scrolling news-feed of the latest events on campus, as well as an email notification service for these events. Students often talked of being misinformed about, or forgetting about, events. Our site helped change that.
