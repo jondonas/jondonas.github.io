@@ -12,7 +12,7 @@ category: personal
 author: jondonas
 ---
 
-Applied Data Analytics class, 2018. 
+*Applied Data Analytics class, 2018.*
 
 Our group wanted to find out if we could predict the "helpfulness" of a product review on Amazon. We explored the relationships between helpfulness and length, star-rating, words used, and trends over time. We found that the review length, star-rating, and the words used in a review were the most telling factors. Furthermore, a new classifier is not necessarily needed for each product category. We found that the same words that indicate that a beauty product review is helpful can also tell us if an automotive product or baby product review is helpful.
 
