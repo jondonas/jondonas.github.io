@@ -6,15 +6,15 @@ layout: page
 
 ### About Me
 
-:round_pushpin: Seattle, Washington
+<kbd><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4cd.png" width="20" height="20"></kbd> Seattle, Washington
 
-<!--- ##### Work
+<!--- #### Work
 Software Engineer @ AWS Cryptography --->
 
-##### Education
+#### Education
 Bachelor of Computer Science with Business Minor - University of Waterloo
 
-##### Skills
+#### Skills
 These are some areas that I take particular interest in:
 - Applied Cryptography
 - Secure Programming
