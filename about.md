@@ -8,16 +8,15 @@ layout: page
 
 ### About Me
 
-<!--- Currently living in Seattle, Washington --->
+Currently living in Seattle, Washington
 
-<!--- #### Work
-Software Engineer @ AWS Cryptography --->
+#### Work
+Software Engineer @ AWS Cryptography
 
 #### Education
-Bachelor of Computer Science with Business Minor - University of Waterloo
+Bachelor of Computer Science with Business Option - University of Waterloo
 
-#### Skills
-These are some areas that I take particular interest in:
+#### Interests
 - Applied Cryptography
 - Secure Programming
 - Penetration Testing
