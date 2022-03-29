@@ -2,7 +2,7 @@
 title: "Salt-Cloud Authentication Bug"
 icon: ":beetle:"
 layout: post
-date: 3001-01-01 00:00 # Used for project ordering, never displayed
+date: 1201-01-01 00:00 # Used for project ordering, never displayed
 startDate: 2015-06-01 00:00
 endDate:
 tag:
