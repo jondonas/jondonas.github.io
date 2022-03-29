@@ -2,7 +2,7 @@
 title: "Garbage Day"
 icon: ":recycle:"
 layout: post
-date: 2002-01-01 00:00 # Used for project ordering, never displayed
+date: 1102-01-01 00:00 # Used for project ordering, never displayed
 startDate: 2015-08-01 00:00
 endDate: 2016-01-01 00:00
 tag: [python, linux, mysql, flask, html/css]

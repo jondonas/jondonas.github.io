@@ -2,7 +2,7 @@
 title: "uWaterloo Root Shell"
 icon: ":honeybee:"
 layout: post
-date: 3002-01-01 00:00 # Used for project ordering, never displayed
+date: 1202-01-01 00:00 # Used for project ordering, never displayed
 startDate: 2016-10-01 00:00
 endDate:
 tag:
