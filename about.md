@@ -18,7 +18,7 @@ Bachelor of Computer Science with Business Option - University of Waterloo
 
 #### Interests
 - Applied Cryptography
+- Java & Python
 - Secure Programming
 - Penetration Testing
-- Python & C/C++
 - Networks and Distributed Systems 
