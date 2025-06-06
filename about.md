@@ -11,14 +11,14 @@ layout: page
 Currently living in Seattle, Washington
 
 #### Work
-Software Engineer @ AWS Cryptography
+Senior Software Engineer @ CrowdStrike
 
 #### Education
 Bachelor of Computer Science with Business Option - University of Waterloo
 
 #### Interests
-- Applied Cryptography
-- Java & Python
-- AWS - Compute, Storage, Networking, & Serverless
-- Networks and Highly Scalable Systems 
+- API design for highly scalable and available systems
+- Applied Cryptography - Encryption, Code Signing, Public Key Infrastructure
+- Object-Oriented Programming - Java & Python
+- AWS - Compute, Storage, Networking, and Serverless
 - Penetration Testing
